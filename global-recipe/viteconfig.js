@@ -15,8 +15,8 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: resolve(__dirname, "index.html"),
-        favorites: resolve(__dirname, "src/favorites/index.html"),
-        funzone: resolve(__dirname, "src/funzone/index.html"),
+        favorites: resolve(__dirname, "favorites/index.html"),
+        funzone: resolve(__dirname, "funzone/index.html"),
         },
     },
   },
