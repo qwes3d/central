@@ -15,9 +15,12 @@ export default defineConfig({
     emptyOutDir: true, // Clears dist/ before build
     rollupOptions: {
       input: {
-        main: resolve(__dirname, "index.html"), // global-recipe/index.html
-        favorites: resolve(__dirname, "favorites/index.html"), // global-recipe/favorites/index.html
-        funzone: resolve(__dirname, "funzone/index.html"), // global-recipe/funzone/index.html
+        main: resolve(__dirname, "index.html"),
+        favorites: resolve(__dirname, "src/pages/favorite.html"),
+        funzone: resolve(__dirname, "src/pages/index.html"),
+        flag: resolve(__dirname, "src/pages/flag.html"),
+        timetravel: resolve(__dirname, "src/pages/timetravel.html"),
+        geography: resolve(__dirname, "src/pages/geography.html"),
       },
     },
   },
